@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta property="og:type" content="website">
-    <meta property="og:title" content="NIKE AF1 PARA-NOISE UTOPIA">
+    <meta property="og:title" content="ADBALL">
     <meta property="og:description" content="">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="../assets/images/og.png">
     <meta property="og:url" content="">
     <title>ADBALL</title>
     <link type="text/css" rel="stylesheet" href="../assets/css/reset.css"/>
@@ -14,26 +14,28 @@
     <link type="text/css" rel="stylesheet" href="../assets/css/common.css"/>
 </head>
 <body>
+
+<!-- iOS 브라우져 덜컹 버그 - 감싸는 태그가 없어야 합니다. -->
+<div class="gnb">
+    <a href="main.html" class="btn-home on"><span>홈</span></a><!-- 활성화 : on 추가 -->
+    <a href="javascript:void(0);" class="btn-adball-entry">
+        <strong><em>ADBALL</em></strong>
+        <span>애드볼 응모</span>
+    </a>
+    <a href="mypage.html" class="btn-my"><span>마이페이지</span></a>
+</div>
+
 <div id="wrap">
 
     <div id="header" class="header-gray">
         <h1><img src="../assets/images/logo/logo_adball_en.png" alt="adball"></h1>
         <a href="#" class="btn-alarm on">알림</a><!-- 활성화 : on 추가 -->
-
-        <div class="gnb">
-            <a href="main.html" class="btn-home on"><span>홈</span></a><!-- 활성화 : on 추가 -->
-            <a href="javascript:void(0);" class="btn-adball-entry">
-                <strong><em>ADBALL</em></strong>
-                <span>애드볼 응모</span>
-            </a>
-            <a href="#" class="btn-my"><span>마이페이지</span></a>
-        </div>
     </div>
 
     <div id="container" class="main">
         <div class="section top-info">
             <div class="point">
-                <p>2,345</p>
+                <p class="roboto">2,345</p>
                 <button type="button" class="btn-adball">애드볼</button>
             </div>
             <div class="progress">
